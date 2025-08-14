@@ -8,7 +8,7 @@ class Weather
 {
     public function index()
     {
-        $weather = new WeatherClient('2269dfce1139836fa87083cb17da8f9f'); // 🔑 Replace with your valid API key
+        $weather = new WeatherClient('2269dfce1139836fa87083cb17da8f9f');
         $data = $weather->getCurrentWeather('Ndola');
 
         echo '<pre>';
@@ -17,6 +17,5 @@ class Weather
     }
 }
 
-// Run the method directly
 $controller = new Weather();
 $controller->index();
