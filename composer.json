@@ -1,0 +1,20 @@
+{
+    "name": "lukundo/weather-client",
+    "description": "A PHP package to fetch weather data from openWeather API",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lukundo\\WeatherClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stella05lulu",
+            "email": "namonjestella@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
